@@ -120,7 +120,7 @@ nav a:hover {
        text-decoration: none;
 }
 
-#where button:hover {
+.btn-1:hover {
     background: rgba(151, 210, 214, 0.5);
 }
 
