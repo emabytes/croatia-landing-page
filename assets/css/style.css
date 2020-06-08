@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    text-align: right;
+    height: 70px;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px 2%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 1.1em;
+    color: rgb(58, 58, 58);
+}
+
+#home {
+    height: 100vh;
+    background: url(../img/photo-1.jpeg) center/cover no-repeat;
+    text-align: center;
+    color: white;
+}
+
+#home h1 {
+    padding-top: 27vh;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 6em;
+    letter-spacing: 2px;
+}
+
+#home h2 {
+    font-size: 1.4em;
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#home p {
+    padding: 10px 0;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+#home h3 {
+    padding-top: 180px;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-shadow: black 2px 2px 2px;
+}
+
+#where {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#where h2 {
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 3em;
+    color: rgb(58, 58, 58);
+}
+
+#where article img {
+    height: 250px;
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+#where img:hover {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#where article div:first-of-type {
+    margin-left: 5%;
+}
+
+#where article {
+    width: 100%;
+    text-align: center;
+}
+
+#where div {
+    text-align: center;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#where p {
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+#where button {
+    padding: 10px 20px;
+    border: 2px solid rgb(58, 58, 58);
+    font-size: 1em;
+    background: white;
+    color: rgb(58, 58, 58);
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+#where button:hover {
+    background: rgb(58, 58, 58);
+    color: white;
+}
+
+#lakes {
+    height: 100vh;
+    background: url(../img/photo-5.jpg) center/cover no-repeat;
+    color: white;
+    text-align: center;
+}
+
+#lakes h1 {
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 30vh;
+    padding-bottom: 1vh;
+    font-size: 3em;
+}
+
+#lakes-text {
+    padding: 30vh 0;
+    text-align: center;
+}
+
+.text-bw {
+    margin: 0 auto;
+    width: 700px;
+    font-size: 1.5em;
+    line-height: 2;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+.xl {
+    font-size: 3em;
+    display: block;
+    background: rgba(31, 31, 31, 0.5);
+}
+
+#island {
+    height: 100vh;
+    background: url(../img/photo-6.jpg) center/cover no-repeat;
+    color: white;
+    text-align: center;
+}
+
+#island h1 {
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 30vh;
+    padding-bottom: 1vh;
+    font-size: 3em;
+}
+
+#island-text {
+    padding: 30vh 0;
+    text-align: center;
+}
+
+#relax {
+    height: 100vh;
+    background: url(../img/photo-7.jpg) center/cover no-repeat;
+    color: white;
+    text-align: center;
+}
+
+#relax-text {
+    padding: 20vh 0;
+    ;
+}
+
+#relax h1 {
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 30vh;
+    padding-bottom: 1vh;
+    font-size: 3em;
+}
+
+#contact-form {
+    height: 100vh;
+    background: url(../img/photo-8.jpg) center/cover no-repeat;
+    color: white;
+    text-align: center;
+    text-align: center;
+}
+
+#contact-form article {
+    padding: 35vh 3%;
+    margin: 0 auto;
+}
+
+#contact-form article div {
+    margin: 0 auto;
+    background: rgba(97, 97, 97, 0.5);
+    width: 400px;
+    padding: 20px 5%;
+}
+
+#contact-form h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+    color: white;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 3em;
+}
+
+#contact-form h4 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-size: 1em;
+    background: white;
+    color: rgb(58, 58, 58);
+    border-radius: 3px;
+    border: none;
+}
+
+#contact-form button:hover {
+    background: rgb(58, 58, 58);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 2%;
+    height: 50px;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+footer h6 {
+    font-size: 1.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+footer a:hover {
+    font-size: 1.3em;
+}
