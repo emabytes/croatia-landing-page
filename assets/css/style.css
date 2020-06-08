@@ -27,8 +27,7 @@ nav a {
 }
 
 nav a:hover {
-    font-size: 1.1em;
-    color: rgb(58, 58, 58);
+    color: rgb(151, 210, 214);
 }
 
 #home {
@@ -77,7 +76,8 @@ nav a:hover {
     padding-top: 100px;
     padding-bottom: 50px;
     font-size: 3em;
-    color: rgb(58, 58, 58);
+    color: rgba(151, 210, 214, 0.9);
+    text-shadow: black 1px 1px 2px;
 }
 
 #where article img {
@@ -86,10 +86,6 @@ nav a:hover {
     text-align: center;
     padding-bottom: 15px;
     padding-top: 30px;
-}
-
-#where img:hover {
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 #where article div:first-of-type {
@@ -113,19 +109,19 @@ nav a:hover {
     padding-bottom: 20px;
 }
 
-#where button {
+.btn-1 {
     padding: 10px 20px;
-    border: 2px solid rgb(58, 58, 58);
     font-size: 1em;
-    background: white;
-    color: rgb(58, 58, 58);
     border-radius: 3px;
     text-transform: uppercase;
+    background: rgb(151, 210, 214);
+       color: white;
+       border: none;
+       text-decoration: none;
 }
 
 #where button:hover {
-    background: rgb(58, 58, 58);
-    color: white;
+    background: rgba(151, 210, 214, 0.5);
 }
 
 #lakes {
@@ -191,7 +187,7 @@ nav a:hover {
 
 #relax-text {
     padding: 20vh 0;
-    ;
+    width: 500px;
 }
 
 #relax h1 {
@@ -217,6 +213,7 @@ nav a:hover {
 #contact-form article div {
     margin: 0 auto;
     background: rgba(97, 97, 97, 0.5);
+    border-radius: 5px;
     width: 400px;
     padding: 20px 5%;
 }
@@ -240,15 +237,15 @@ nav a:hover {
     padding: 10px 20px;
     border: 2px solid black;
     font-size: 1em;
-    background: white;
+    background: rgba(151, 210, 214, 1);
     color: rgb(58, 58, 58);
     border-radius: 3px;
     border: none;
 }
 
 #contact-form button:hover {
-    background: rgb(58, 58, 58);
-    color: white;
+    background: rgba(58, 58, 58, 0.8);
+    color: rgba(151, 210, 214, 1);
 }
 
 footer {
@@ -262,10 +259,12 @@ footer h3 {
     text-transform: uppercase;
     padding-bottom: 5px;
     letter-spacing: 3px;
+      color: rgba(151, 210, 214, 1);
 }
 
 footer h6 {
     font-size: 1.5em;
+  
 }
 
 footer a {
@@ -277,4 +276,9 @@ footer a {
 
 footer a:hover {
     font-size: 1.3em;
+    color: rgba(151, 210, 214, 0.9);
+}
+
+.aqua-text {
+    color: rgba(151, 210, 214, 1);
 }
